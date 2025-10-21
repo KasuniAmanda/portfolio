@@ -11,7 +11,7 @@ function App() {
       <CustomNavbar />
       <Banner />
       <Skills />
-      <Projects>
+      <Projects />
     </div>
   );
 }
