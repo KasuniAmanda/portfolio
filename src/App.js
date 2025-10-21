@@ -1,6 +1,8 @@
 import './App.css';
 import { CustomNavbar } from './components/Navbar';
 import { Banner } from './components/Banner';
+import { Skills } from './components/Skills';
+import { Projects } from './components/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <div className="App">
       <CustomNavbar />
       <Banner />
+      <Skills />
+      <Projects>
     </div>
   );
 }
